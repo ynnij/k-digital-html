@@ -10,6 +10,9 @@
 - VSCode
     - Live Server
 
+## TODO
+- [x] 헤더완성
+- []
 
 ## Ref.
 .gitignore
