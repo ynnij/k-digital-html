@@ -8,7 +8,9 @@
     box-sizing: border-box;
 }
 
-a,a:link,a:visited{
+a,
+a:link,
+a:visited{
     color: inherit;
     text-decoration: none;
 }
@@ -85,7 +87,7 @@ main h2 {
     font-size: 3.5rem;
     margin: 2rem 0;
     letter-spacing: 3px;
-    font-family: 'Varela Round'
+    font-family: 'Varela Round', sans-serif;
 }
 
 main p {
@@ -127,6 +129,7 @@ main button.download {
       bottom: 1rem;
     }
   }
+
   main h2 span::after {
     content: "";
     height: 40px;
@@ -142,4 +145,87 @@ main button.download {
     100% {
       opacity: 0;
     }
+  }
+
+  /* Section */
+
+  section {
+    font-family: "Poppins", sans-serif;
+    padding: 5rem 0;
+  }
+  section:nth-child(2n) {
+    background-color: #f8f8f8;
+  }
+  section .title {
+    margin-bottom: 3rem;
+  }
+  section .title h4 {
+    font-size: 1.35rem;
+    color: #ed4848;
+    position: relative;
+  }
+  section .title h2 {
+    font-size: 3.5rem;
+  }
+  section .title p {
+    font-size: 1.15rem;
+  }
+
+  section .about-self::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+
+  section .about-self .left {
+    width: 50%;
+    float: left;
+  }
+
+  section .about-self .left img {
+    max-width: 100%;
+  }
+
+  section .about-self .right {
+    width: 50%;
+    float: left;
+    padding: 0 2rem;
+  }
+
+  section .about-self .right h3 {
+    font-size: 2.25rem;
+    margin-bottom: 1rem;
+  }
+
+  section .about-self .right h3 strong {
+    color: #ed4848;
+  }
+
+  section .about-self .right p {
+    font-size: 1.15rem;
+    margin: 1rem 0;
+  }
+  /* 본문 오른쪽의 아이콘 폰트 크기와 여백 지정 */
+  section .about-self .right .social a {
+    font-size: 2.5rem;
+    margin-right: 0.2rem;
+  }
+
+  @media screen and (max-width: 1140px) {
+    main .container {
+      width: 992px;
+    }
+
+    section .container {
+      width: 600px;
+    }
+    section .about-self .left {
+      width: 100%;
+      margin-bottom: 1.5rem;
+    }
+    section .about-self .right{
+      width: 100%;
+      padding: 0;
+    }
+
   }
