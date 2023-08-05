@@ -14,11 +14,12 @@
 - [x] 헤더
 - [x] 메인
 - [ ] 섹션
-    - [ ] About Me
+    - [X] About Me
+    - [X] Contact With Me
     - [ ] What I Do
     - [ ] Background
     - [ ] PortFolio
-    - [ ] Contact With Me
+
 
 
 ## Ref.
